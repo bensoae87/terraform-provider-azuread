@@ -149,7 +149,7 @@ func groupDataSource() *pluginsdk.Resource {
 			"members": {
 				Description: "The object IDs of the group members",
 				Type:        pluginsdk.TypeList,
-				Computed:    true,
+				Computed:    false,
 				Elem: &pluginsdk.Schema{
 					Type: pluginsdk.TypeString,
 				},
